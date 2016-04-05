@@ -4,11 +4,9 @@ This implementation is done in Python 2.7.6. Following updated modules/packages 
 
 import simplejson, pandas, datetime
 
+#How to run the code
 InsightChallenge/insight_testsuite/run_tests.sh referring the python file InsightChallenge/src/Average_degree.py to calculate the average degrees. 
 
-import simplejson, pandas, datetime,os
-
-#How to run the code
 run.sh located in the root run InsightChallenge/src/Average_degree.py to calculate the average degrees. 
 
 #Algorithm Steps:
