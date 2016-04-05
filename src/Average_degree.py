@@ -26,7 +26,7 @@ class Calculate_score(object):
 			self.scores=(self.length-1)*(self.newtags_length)+(self.newtags_length)*(self.length-self.newtags_length)   
 			return (self.scores)
 	
-def avg_deg(input_file,output_file):
+def Tweet_Avg_Degree(input_file,output_file):
 	import simplejson,os
 	import pandas as pd      
 	twitter_input = open(input_file,"r")
@@ -61,7 +61,7 @@ def avg_deg(input_file,output_file):
              f.write("{0:.2f}\n".format((score_val)))
 			 
 	prev_avg_score = []
-	#unique_tags = []
+	
 	from datetime import timedelta
 	temp1 = pd.DataFrame(columns=('Time_stamp','Hashtags'))
 	score_val = 0
@@ -101,4 +101,4 @@ if __name__ == '__main__':
     print input_file
     output_file = file_dir + r'/tweet_output/output.txt'
     print output_file
-    avg_deg(input_file,output_file)
+    Tweet_Avg_Degree(input_file,output_file)
