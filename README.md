@@ -5,9 +5,7 @@ This implementation is done in Python 2.7.6. Following updated modules/packages 
 import simplejson, pandas, datetime
 
 #How to run the code
-InsightChallenge/insight_testsuite/run_tests.sh referring the python file InsightChallenge/src/Average_degree.py to calculate the average degrees. 
-
-run.sh located in the root run InsightChallenge/src/Average_degree.py to calculate the average degrees. 
+/InsightChallenge/run.sh referring to python file /InsightChallenge/src/Average_degree.py to calculate the average degrees. 
 
 #Algorithm Steps:
 1. Open the tweets.txt file under tweet_input folder 
