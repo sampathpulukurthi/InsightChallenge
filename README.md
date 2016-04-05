@@ -2,7 +2,7 @@
 
 This implementation is done in Python 2.7.6. Following updated modules/packages are necessary for this implementation to run:
 
-import simplejson, pandas, datetime
+import simplejson, pandas, datetime, os
 
 #How to run the code
 /InsightChallenge/run.sh referring to python file /InsightChallenge/src/Average_degree.py to calculate the average degrees. 
